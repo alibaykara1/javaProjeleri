@@ -1,4 +1,4 @@
-package hipotenus;
+package yeniKodlar.hipotenus;
 import java.util.Scanner;
 public class sayilarisiralama {
     public static void main(String[] args) {
