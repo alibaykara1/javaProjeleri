@@ -1,4 +1,4 @@
-package daire;
+package yeniKodlar.daire;
 
 import java.util.Scanner;
 public class daire{
