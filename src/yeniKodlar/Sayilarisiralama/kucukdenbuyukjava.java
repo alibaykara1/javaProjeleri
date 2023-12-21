@@ -41,7 +41,7 @@ public class kucukdenbuyukjava {
                 System.out.print("c<b<a");
             }
         }
-        
+
     }
 }
 
