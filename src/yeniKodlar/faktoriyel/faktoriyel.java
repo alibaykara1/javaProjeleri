@@ -6,16 +6,23 @@ import java.util.Scanner ;
 public class faktoriyel{
     public static void main(String[] args) {
 
-        int n,total = 1;
+        int n,total =1;
 
-        Scanner inp = new Scanner (System.in);
-        System.out.print("Sayıyı giriniz :");
-        n = inp.nextInt();
+        Scanner input = new Scanner (System.in);
 
-        for(int i=1 ;i<=n ;i++){
+        System.out.print("Faktöriyeli alınacak olan sayıyı giriniz :");
+        n = input.nextInt();
+
+
+        for(int i =1 ;i<=n;i++){
             total*=i;
         }
+
         System.out.print(n+". faktöriyel :"+total);
+
+
+
+
 
     }
 }
